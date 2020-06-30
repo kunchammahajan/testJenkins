@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="Test Suite">
+    <webMethodsTestCase name="test123">
+        <service folder="JenkinsTest.services" name="test">
+            <input>
+                <file filename="C:\cicd_learning\PipelineIn.xml"/>
+            </input>
+            <expected>
+                <file filename="C:\cicd_learning\PipelineOut.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
